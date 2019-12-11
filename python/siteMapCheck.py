@@ -1,3 +1,5 @@
+#HOW TO USE: python3 siteMapCheck.py https://www.shopclues.com/sitemap.xml
+
 import sys
 from xml.etree import ElementTree
 
