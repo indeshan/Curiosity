@@ -1,3 +1,3 @@
 # code
 
-Code is a Python code which is written during day today life
+Code is written during day today life.
