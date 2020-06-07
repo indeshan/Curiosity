@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 3</title>
+  </head>
+  <body>
+    <form action="thankyou.html" method="get">
+      <h1>Cource Sign Up Page</h1>
+      <h3>PLease Note: First Name, Last Name, Password, and Email are required</h3>
+      <label for="fname">First Name : </label>
+      <input id="fname" type="text" placeholder="First Name" required>
+      <label for="lname">Last Name : </label>
+      <input id="lname" type="text" placeholder="Last Name" required>
+      <p></p>
+      <label for="useremail">Email : </label>
+      <input id="useremail" type="email" placeholder="name@email.com" required>
+      <label for="password">Password : </label>
+      <input id="password" type="password" required>
+      <p></p>
+      <h3>Are you over the age of 18?</h3>
+      <label for="age1">Yes</label>
+      <input type="radio" name="ageO" id="age1" value="Yes">
+      <label for="age2">No</label>
+      <input type="radio" name="ageO" id="age2" value="No">
+      <p></p>
+      <h3>Do you have a Credit Card or PayPal?</h3>
+      <select name="payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">PayPal</option>
+      </select>
+      <p></p>
+      <input type="submit" value="Sign Up">
+    </form>
+  </body>
+</html>
